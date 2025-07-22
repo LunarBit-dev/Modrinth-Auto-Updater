@@ -1,0 +1,78 @@
+{
+  "formatVersion": 1,
+  "game": "minecraft",
+  "versionId": "v1.0.0",
+  "name": "Example Fabric Performance Pack",
+  "summary": "A performance-focused Fabric modpack with essential optimization mods",
+  "dependencies": {
+    "minecraft": "1.21.4",
+    "fabric-loader": "latest"
+  },
+  "files": [
+    {
+      "path": "mods/sodium-fabric-0.6.0.jar",
+      "downloads": [
+        "https://cdn.modrinth.com/data/AANobbMI/versions/4OZL6q9e/sodium-fabric-0.6.0%2Bmc1.21.jar"
+      ],
+      "hashes": {
+        "sha1": "placeholder-hash-sodium"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    },
+    {
+      "path": "mods/fabric-api-0.104.0.jar",
+      "downloads": [
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/nQNcQB82/fabric-api-0.104.0%2B1.21.jar"
+      ],
+      "hashes": {
+        "sha1": "placeholder-hash-fabric-api"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/lithium-fabric-0.13.0.jar",
+      "downloads": [
+        "https://cdn.modrinth.com/data/gvQqBUqZ/versions/ZSNsJrPI/lithium-fabric-mc1.21.jar"
+      ],
+      "hashes": {
+        "sha1": "placeholder-hash-lithium"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/phosphor-fabric-0.8.1.jar",
+      "downloads": [
+        "https://cdn.modrinth.com/data/hEOCdOgW/versions/rRe8TBtj/phosphor-fabric-mc1.19.x-0.8.1.jar"
+      ],
+      "hashes": {
+        "sha1": "placeholder-hash-phosphor"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      }
+    },
+    {
+      "path": "mods/iris-shaders-1.7.5.jar",
+      "downloads": [
+        "https://cdn.modrinth.com/data/YL57xq9U/versions/nwFfmWgj/iris-fabric-1.7.5%2Bmc1.21.jar"
+      ],
+      "hashes": {
+        "sha1": "placeholder-hash-iris"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      }
+    }
+  ]
+}
