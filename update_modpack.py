@@ -601,7 +601,7 @@ def main():
             print(f"{Colors.RED}❌ {name}: Unknown error{Colors.RESET}")
 
     # Use modpack name for changelog
-    changelog_path = os.path.join("/Users/lexicodes/Lunarbit-Modrinth-Autoupdater", f'{modpack_name}_changelog.md')
+    changelog_path = f'{modpack_name}_changelog.md'
     write_changelog(changelog_path, updated, uptodate, missing, errors)
     print(f"\nChangelog written to {changelog_path}")
     
