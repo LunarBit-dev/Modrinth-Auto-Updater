@@ -49,16 +49,16 @@
       }
     },
     {
-      "path": "mods/phosphor-fabric-0.8.1.jar",
+      "path": "mods/modmenu-11.0.3.jar",
       "downloads": [
-        "https://cdn.modrinth.com/data/hEOCdOgW/versions/rRe8TBtj/phosphor-fabric-mc1.19.x-0.8.1.jar"
+        "https://cdn.modrinth.com/data/mOgUt4GM/versions/V2mmANJQ/modmenu-11.0.3.jar"
       ],
       "hashes": {
-        "sha1": "placeholder-hash-phosphor"
+        "sha1": "placeholder-hash-modmenu"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       }
     },
     {
