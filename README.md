@@ -1,11 +1,11 @@
-# 🚀 LunarBit Modpack Updater
+# 🚀 Modrinth Modpack Updater
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Modrinth](https://img.shields.io/badge/Modrinth-API%20v2-00AF5C.svg)](https://docs.modrinth.com/)
 [![GUI](https://img.shields.io/badge/GUI-Available-brightgreen.svg)](#-gui-mode)
 
-A powerful tool that automatically updates Minecraft modpacks using the Modrinth API, with intelligent modloader compatibility and client/server .mrpack generation. Now featuring a beautiful GUI with LunarBit theming!
+A powerful tool that automatically updates Minecraft modpacks using the Modrinth API, with intelligent modloader compatibility and client/server .mrpack generation.
 
 ## ✨ Features
 
