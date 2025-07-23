@@ -1,12 +1,20 @@
-# Modrinth Modpack Updater
+# 🚀 LunarBit Modpack Updater
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Modrinth](https://img.shields.io/badge/Modrinth-API%20v2-00AF5C.svg)](https://docs.modrinth.com/)
+[![GUI](https://img.shields.io/badge/GUI-Available-brightgreen.svg)](#-gui-mode)
 
-A powerful Python script that automatically updates Minecraft modpacks using the Modrinth API, with intelligent modloader compatibility and client/server .mrpack generation.
+A powerful tool that automatically updates Minecraft modpacks using the Modrinth API, with intelligent modloader compatibility and client/server .mrpack generation. Now featuring a beautiful GUI with LunarBit theming!
 
 ## ✨ Features
+
+### 🎨 **Beautiful GUI Interface**
+- Modern dark theme with LunarBit styling
+- Intuitive configuration panel with all options
+- Real-time output monitoring with colored logs
+- One-click updates with progress tracking
+- Cross-platform compatibility (Windows, macOS, Linux)
 
 ### 🔄 **Intelligent Mod Updates**
 - Automatically checks for mod updates using Modrinth API v2
@@ -56,6 +64,33 @@ setup.bat
 pip install -r requirements.txt
 ```
 
+## 🎨 GUI Mode
+
+Launch the beautiful GUI interface with LunarBit theming:
+
+### Quick Launch
+```bash
+# Linux/macOS
+./run_gui.sh
+
+# Windows
+run_gui.bat
+
+# Or directly with Python
+python3 run_gui.py
+```
+
+### Features
+- 🎨 **Modern Dark Theme** - Beautiful LunarBit-inspired design
+- 📱 **Intuitive Interface** - Easy-to-use configuration panel
+- 📋 **Real-time Output** - Live progress monitoring with colored logs
+- ⚙️ **Configuration Options** - All CLI features available in GUI
+- 🚀 **One-Click Updates** - Simple button to start the update process
+
+![GUI Screenshot](docs/gui-screenshot.png)
+
+## 💻 Command Line Usage
+
 ### Basic Usage
 
 ```bash
@@ -74,9 +109,37 @@ python3 update_modpack.py --modpack-dir path/to/modpack --client --server
 
 ## 📖 Detailed Usage
 
+### GUI Examples
+
+#### Quick Update with GUI
+1. Launch GUI: `./run_gui.sh` (Linux/macOS) or `run_gui.bat` (Windows)
+2. Click "Browse" and select your modpack folder
+3. Enable "Generate client .mrpack" if desired
+4. Click "🚀 Update Modpack"
+
+#### Server Pack Generation
+1. Open the GUI and select your modpack
+2. Check "📱 Generate client .mrpack" and "🖥️ Generate server .mrpack"
+3. Set custom overrides folder if needed
+4. Start the update and monitor progress in real-time
+
 ### Command Line Options
 
 ```
+usage: update_modpack.py [-h] --modpack-dir MODPACK_DIR [--client] [--server] 
+                        [--overrides-folder OVERRIDES_FOLDER]
+
+options:
+  -h, --help                    Show this help message and exit
+  --modpack-dir MODPACK_DIR     Path to modpack directory or .mrpack file
+  --client                      Generate client .mrpack file
+  --server                      Generate server .mrpack file  
+  --overrides-folder FOLDER     Name of overrides folder (default: overrides)
+```
+
+### Command Line Examples
+
+#### Example 1: Basic Update
 usage: update_modpack.py [-h] --modpack-dir MODPACK_DIR [--client] [--server]
                          [--overrides-folder OVERRIDES_FOLDER]
 
