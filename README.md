@@ -9,7 +9,7 @@ A powerful tool that automatically updates Minecraft modpacks using the Modrinth
 
 ## ✨ Features
 
-### 🎨 **Beautiful GUI Interface**
+### 🎨 **GUI Interface**
 - Modern dark theme with LunarBit styling
 - Intuitive configuration panel with all options
 - Real-time output monitoring with colored logs
