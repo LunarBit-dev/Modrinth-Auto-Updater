@@ -66,30 +66,47 @@ pip install -r requirements.txt
 
 ## 🎨 GUI Mode
 
-Launch the beautiful GUI interface with LunarBit theming:
+Launch the beautiful GUI interface with enhanced LunarBit theming:
 
 ### Quick Launch
 ```bash
-# Linux/macOS
-./run_gui.sh
+# Universal launcher (automatically chooses best mode)
+python3 launcher.py
 
-# Windows
-run_gui.bat
+# Explicit GUI launch
+python3 launcher.py --gui
 
-# Or directly with Python
-python3 run_gui.py
+# Platform-specific launchers
+./run_gui.sh        # Linux/macOS
+run_gui.bat         # Windows
+python3 run_gui.py  # Direct Python
 ```
 
-### Features
-- 🎨 **Modern Dark Theme** - Beautiful LunarBit-inspired design
-- 📱 **Intuitive Interface** - Easy-to-use configuration panel
-- 📋 **Real-time Output** - Live progress monitoring with colored logs
-- ⚙️ **Configuration Options** - All CLI features available in GUI
-- 🚀 **One-Click Updates** - Simple button to start the update process
+### Enhanced Features
+- 🎨 **Stunning Design** - Modern dark theme with LunarBit colors and enhanced typography
+- � **Smart File Selection** - Choose between folder or .mrpack file with visual dialog
+- � **Real-time Status** - Live path validation and detailed progress tracking
+- ⚙️ **Rich Configuration** - Enhanced options panel with descriptions and validation
+- 🚀 **One-Click Updates** - Streamlined workflow with intelligent status updates
+- 📋 **Beautiful Output** - Enhanced terminal output with better fonts and spacing
 
-![GUI Screenshot](docs/gui-screenshot.png)
+![Enhanced GUI](docs/gui-screenshot.png)
 
 ## 💻 Command Line Usage
+
+### Universal Launcher
+```bash
+# Auto-detect best mode (GUI if available, CLI otherwise)
+python3 launcher.py
+
+# Force CLI mode with arguments
+python3 launcher.py --cli --modpack-dir path/to/modpack --client
+
+# Auto-detect CLI mode (when CLI arguments are provided)
+python3 launcher.py --modpack-dir path/to/modpack --server
+```
+
+### Direct CLI Usage
 
 ### Basic Usage
 
